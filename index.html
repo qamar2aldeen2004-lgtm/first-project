@@ -10,6 +10,7 @@
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
+            direction: rtl; /* جعل الكتابة من اليمين */
         }
         header {
             background: #007bff;
@@ -21,6 +22,7 @@
         }
         nav {
             margin: 20px 0;
+            text-align: center; /* توسيط الروابط */
         }
         nav a {
             margin: 0 15px;
@@ -58,78 +60,63 @@
             border-radius: 10px;
             margin-top: 20px;
         }
-        .image-container {
-            text-align: center;
-            margin: 15px 0;
-        }
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        button {
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        button:hover {
-            background: #0056b3;
-        }
     </style>
 </head>
 <body>
     <header>
         <h1>نظام إدارة توزيع المياه</h1>
         <p>تقرير تحليل وتصميم</p>
-        <p> قمرالدين شريان </p>
     </header>
     <nav>
         <a href="#introduction">مقدمة</a>
         <a href="#scope">نطاق النظام</a>
         <a href="#target-audience">الفئات المستهدفة</a>
         <a href="#requirements">المتطلبات</a>
+        <a href="#benefits">فوائد النظام</a>
     </nav>
     <main>
         <section id="introduction">
             <h2>1. المقدمة</h2>
-            <p>تهدف هذه الوثيقة إلى تحليل وتصميم نظام رقمي متكامل لإدارة توزيع المياه في المناطق الريفية.</p>
-            <div class="image-container">
-                <img src="https://via.placeholder.com/600x300.png?text=نظام+إدارة+المياه" alt="نظام إدارة المياه">
-            </div>
+            <p>تهدف هذه الوثيقة إلى تحليل وتصميم نظام رقمي متكامل لإدارة توزيع المياه في المناطق الريفية. يسعى النظام إلى تحسين كفاءة توزيع المياه، وتقليل الفاقد، وتعزيز الاستدامة البيئية.</p>
         </section>
         <section id="scope">
             <h2>2. نطاق النظام</h2>
             <ul>
-                <li>تسجيل المستخدمين (مزارعين، مواطنين)</li>
-                <li>إدارة الطلبات</li>
-                <li>جدولة توزيع المياه</li>
-                <li>إصدار الفواتير ومتابعة الاستهلاك</li>
+                <li>تسجيل المستخدمين (مزارعين، مواطنين).</li>
+                <li>إدارة الطلبات.</li>
+                <li>جدولة توزيع المياه.</li>
+                <li>إصدار الفواتير ومتابعة الاستهلاك.</li>
             </ul>
-            <button onclick="alert('تفاصيل نظام إدارة التوزيع');">اكتشف المزيد</button>
         </section>
         <section id="target-audience">
             <h2>3. الفئات المستهدفة</h2>
             <ul>
-                <li>المدير العام للنظام</li>
-                <li>مدراء القرى</li>
-                <li>المواطنون</li>
-                <li>المزارعون</li>
+                <li>المدير العام للنظام.</li>
+                <li>مدراء القرى.</li>
+                <li>المواطنون.</li>
+                <li>المزارعون.</li>
             </ul>
         </section>
         <section id="requirements">
             <h2>4. المتطلبات</h2>
             <h3>المتطلبات غير الوظيفية</h3>
             <ul>
-                <li>تحميل واجهات المستخدم خلال 3 ثوانٍ</li>
-                <li>دعم حتى 500 مستخدم متصل في نفس الوقت</li>
+                <li>تحميل واجهات المستخدم خلال 3 ثوانٍ.</li>
+                <li>دعم حتى 500 مستخدم متصل في نفس الوقت.</li>
+                <li>آليات حماية البيانات الشخصية.</li>
+            </ul>
+        </section>
+        <section id="benefits">
+            <h2>5. فوائد النظام</h2>
+            <ul>
+                <li>تحسين توزيع المياه.</li>
+                <li>توفير الوقت والجهد للمستخدمين.</li>
+                <li>زيادة الوعي حول استهلاك المياه.</li>
             </ul>
         </section>
     </main>
     <footer>
+        <p> اعداد وتصميم : قمرالدين شريان &copy; 2025</p>
     </footer>
 </body>
 </html>
